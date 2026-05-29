@@ -277,6 +277,7 @@ app.get('/auth/callback', async (req, res) => {
     }
 
     console.log('✅ Authorization code received');
+    console.log(`📍 Redirect URI being used: ${REDIRECT_URI}`);
 
     // Step 1: Exchange code for access token
     const tokenData = await exchangeCodeForToken(code);
