@@ -1,0 +1,33 @@
+# Environment variables - NEVER commit this!
+.env
+.env.local
+.env.*.local
+
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Data files (optional - comment out if you want to track)
+# data/authorized_users.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
